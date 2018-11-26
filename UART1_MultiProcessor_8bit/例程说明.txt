@@ -1,0 +1,35 @@
+/**
+  ******************************************************************************
+  * @作者         LGG
+  * @版本         V1.0.0
+  * @日期         2017-11-15
+  * @摘要         UART1例程
+  ******************************************************************************
+  */ 
+
+一、开发说明
+	1、开发环境：	IAR For STM8 V3.10.1
+	2、标准外设库：	V2.0.0
+	3、硬件：		技新STM8S001J3M3核心板 & ST-LINK/V2下载调试器
+
+二、例程说明
+	例程主要内容是：配置UART1：BaudRate = 115200 baud  ；Word Length = 8 Bits
+        One Stop Bit    None parity     Receive and transmit enabled    UART Clock disabled
+        开启发送接收中断，上电发送：HyperTerminal Interrupt: UART1-Hyperterminal communication using Interrupt
+        发送完成后关闭发送中断。通过上位机发来的信息会重新发送回去
+        
+三、使用说明
+	1、打开工程
+	2、编译：Project--->Make（快捷键F7）
+	3、下载：Project--->Download and Debug（快捷键Ctrl+D）
+	4、效果：LED1闪烁,UART1发送"HyperTerminal Interrupt: UART1-Hyperterminal communication using Interrupt"
+ 	         通过上位机发送过来的信息会发送回去
+
+四、其他&帮助
+	1、技新售前支持（QQ群）：612394941
+	2、技新官网：www.jixin.pro
+	3、联系方式：18320813408(加微信联系)
+	
+
+
+

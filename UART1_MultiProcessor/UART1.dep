@@ -5,54 +5,33 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_tim1.c</file>
+            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_gpio.c</file>
+            <file>$PROJ_DIR$\User\stm8s_it.c</file>
+            <file>$PROJ_DIR$\User\main.c</file>
+            <file>$PROJ_DIR$\Bsp\uart1.c</file>
+            <file>$PROJ_DIR$\例程说明.txt</file>
             <file>$PROJ_DIR$\Debug\Obj\UART1.pbd</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_tim1.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_uart1.o</file>
             <file>$PROJ_DIR$\Debug\Obj\uart1.o</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_adc1.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_uart1.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_uart1.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\User\stm8s_conf.h</file>
             <file>$PROJ_DIR$\Debug\Exe\UART1.out</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_wwdg.h</file>
+            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_uart1.c</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.pbi</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_itc.h</file>
+            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_clk.c</file>
+            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_iwdg.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\uart1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_it.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_iwdg.o</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_gpio.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_i2c.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_iwdg.pbi</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_awu.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_exti.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.o</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_tim2.h</file>
-            <file>$PROJ_DIR$\Bsp\uart1.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_it.pbi</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_flash.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_clk.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_tim4.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_gpio.c</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_uart1.c</file>
-            <file>$PROJ_DIR$\User\main.c</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_tim1.c</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_iwdg.c</file>
-            <file>$PROJ_DIR$\例程说明.txt</file>
-            <file>$PROJ_DIR$\Bsp\uart1.c</file>
-            <file>$PROJ_DIR$\User\stm8s_it.c</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_iwdg.h</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_clk.c</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_beep.h</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
-            <file>$PROJ_DIR$\StdPeriph_Driver\inc\stm8s_rst.h</file>
             <file>$PROJ_DIR$\Debug\Exe\UART1.hex</file>
         </outputs>
         <file>
@@ -60,61 +39,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\UART1.out</name>
-            <outputs>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 48</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 32</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 21</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 33 24 15 20 9 25 31 43 28 11 8 4 45 26 19 13 47 1 34 5</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_uart1.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 2</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 6</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\User\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 22</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 14</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
         </file>
@@ -123,24 +48,50 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 27</file>
+                    <file> 23</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 7</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_iwdg.c</name>
+            <name>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_gpio.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 18</file>
+                    <file> 25</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 23</file>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\stm8s_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\User\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
                 </tool>
             </outputs>
         </file>
@@ -149,30 +100,33 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 3</file>
+                    <file> 8</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16</file>
+                    <file> 18</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 26 1 4 13 5 24 8 45 19 47 34 9 25 33 31 20 43 15 28 11 29</file>
-                </tool>
-            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\User\stm8s_it.c</name>
+            <name>$PROJ_DIR$\Debug\Exe\UART1.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_uart1.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 17</file>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 30</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
         </file>
@@ -181,19 +135,26 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 46</file>
+                    <file> 26</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12</file>
+                    <file> 13</file>
                 </tool>
             </outputs>
-            <inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdPeriph_Driver\src\stm8s_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 21</file>
+                </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 47 24 45 8 19 34 4 26 13 1 5 9 25 33 31 20 43 15 28 11</file>
+                    <file> 22</file>
                 </tool>
-            </inputs>
+            </outputs>
         </file>
     </configuration>
     <configuration>
