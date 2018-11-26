@@ -33,8 +33,8 @@ static uint32_t LSIMeasurment(void);
 
 __IO uint32_t LsiFreq = 0;
 
-unsigned char Light_Color='R';//change by color
-unsigned char Light_Address=0x4;
+unsigned char Light_Color='G';//change by color
+unsigned char Light_Address=0x2;
 
 unsigned char Mode_Cnt=0;
 unsigned char Status_Cnt=0;

@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files\IAR Systems\Embedded Workbench 8.0\IAR For STM8\common\bin\cspybat" -f "C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\settings\UART1.Debug.general.xcl" --backend -f "C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\settings\UART1.Debug.driver.xcl" 
+& "D:\Program Files\IAR Systems\Embedded Workbench 8.0\IAR For STM8\common\bin\cspybat" -f "D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\settings\UART1.Debug.general.xcl" --backend -f "D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\settings\UART1.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Program Files\IAR Systems\Embedded Workbench 8.0\IAR For STM8\common\bin\cspybat" -f "C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\settings\UART1.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\settings\UART1.Debug.driver.xcl" 
+& "D:\Program Files\IAR Systems\Embedded Workbench 8.0\IAR For STM8\common\bin\cspybat" -f "D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\settings\UART1.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\settings\UART1.Debug.driver.xcl" 
 }

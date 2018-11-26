@@ -1,22 +1,22 @@
-"C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\StdPeriph_Driver\src\stm8s_clk.c"
+"D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\StdPeriph_Driver\src\stm8s_clk.c"
 -std=c99
 -ferror-limit=0
 -I
-C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\Bsp
+D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\Bsp
 -I
-C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\StdPeriph_Driver\inc
+D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\StdPeriph_Driver\inc
 -I
-C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\User
+D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\User
 -I
 D:\Program Files\IAR Systems\Embedded Workbench 8.0\IAR For STM8\stm8\inc
 -I
 D:\Program Files\IAR Systems\Embedded Workbench 8.0\IAR For STM8\stm8\inc\c
 -I
-C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\Bsp
+D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\Bsp
 -I
-C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\StdPeriph_Driver\inc
+D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\StdPeriph_Driver\inc
 -I
-C:\Users\sun_j\Desktop\UART1_HyperTerminal_Interrupt\User
+D:\Program Files\GitHub\STM8MultiProcessor\UART1_MultiProcessor\User
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
